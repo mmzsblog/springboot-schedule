@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <!-- 二级缓存开启 -->
+        <setting name="cacheEnabled" value="true" />
+        <!--设置启用数据库字段下划线映射到java对象的驼峰式命名属性，默认为false -->
+        <!--<setting name="mapUnderscoreToCamelCase" value="true"/>-->
+    </settings>
+</configuration>
+
